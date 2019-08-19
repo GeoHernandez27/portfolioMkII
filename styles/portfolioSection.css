@@ -19,6 +19,9 @@
 .section-text {
   /* background-color: red; */
   padding: 1rem 0px;
+  color: transparent;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: white;
 }
 
 .projects-wrapper {
@@ -43,15 +46,15 @@
   display: none;
 }
 
-
 .card {
   /* background-color: red; */
   display: inline-block;
   width: 50vw;
   height: 100%;
   border: none;
-  text-align: left;
 
+  text-align: left;
+  color: transparent;
   font-size: 1.5rem;
 
   margin: 10px;
@@ -70,27 +73,17 @@
 }
 
 .project-image {
- 
-    width: 100%;
-    height: 100%;
-
+  width: 100%;
+  height: 100%;
 }
 
 .project-text {
-    /* background-color: green; */
+  /* background-color: green; */
 
-    transition: 0.3s all ease-in-out
+  transition: 0.3s all ease-in-out;
 }
 
 .card:hover {
-    color: black;
+  color: #a8a8a8;
+  cursor: pointer;
 }
-
-/* .project-text h2 {
-    position: absolute;
-    text-align: left;
-    text-transform: uppercase;
-    word-wrap: break-word;
-  } */
-
-
