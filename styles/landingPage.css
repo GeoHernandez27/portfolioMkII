@@ -40,6 +40,8 @@
 
 .header-content {
   z-index: 2;
+
+  text-transform: uppercase;
 }
 .header-content h1 {
   font-size: 3.125rem;

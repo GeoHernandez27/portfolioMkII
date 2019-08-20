@@ -5,27 +5,25 @@
 }
 
 .section-text_wrapper-top {
-  /* background-color: yellow; */
-  display: flex;
-  flex-direction: column;
   flex-grow: 1;
-  justify-content: center;
+
+  text-align: end;
+  justify-content: flex-end;
 
   font-size: 3rem;
   text-transform: uppercase;
-  padding: 20px;
+
+  margin: auto;
+
+  padding-right: 0.625rem;
 }
 
 .section-text {
-  /* background-color: red; */
-  padding: 1rem 0px;
-  color: transparent;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: white;
+  justify-content: flex-end;
+  align-content: end;
 }
 
 .projects-wrapper {
-  /* background-color: blue; */
   flex-grow: 2;
   width: 100vw;
   margin: auto;
@@ -38,7 +36,7 @@
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  padding: 20px 20px;
+  padding: 20px 0px;
   width: 70vw;
 }
 
