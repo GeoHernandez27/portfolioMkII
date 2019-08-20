@@ -54,33 +54,9 @@
 
 .gold-letter {
   color: #ffa62e;
+  font-family: 'Permanent Marker', sans-serif;
 }
 
-.btn {
-  background: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  height: 3.125rem;
-  width: 12.5rem;
-  margin: 1rem;
-  color: #a8a8a8;
-  border-radius: 5px;
-  border: solid 2px #ffa62e;
-  cursor: pointer;
-
-  transition: 0.3s all ease-in-out;
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #ffa62e;
-  outline: none;
-
-  text-decoration: none;
-  border: solid 2px #ffa62e;
-  color: rgb(46, 46, 46);
-}
 
 @media (max-width: 960px) {
   .landing-container {
