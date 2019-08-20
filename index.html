@@ -28,9 +28,9 @@
     <div class="menu" id='side-nav'>
         <a href='javascript:void(0)' class="closebtn menu-items" onclick="closeNav()">&times;</a>
         
-        <a class='menu-items' href='#home'>Home</a>
-        <a class='menu-items' href='#portfolio'>Portfolio</a>
-        <a class='menu-items' href='#contact'>Contact</a>
+        <a class='menu-items' href='#home' onclick="closeNav()" >Home</a>
+        <a class='menu-items' href='#portfolio' onclick="closeNav()">Portfolio</a>
+        <a class='menu-items' href='#contact' onclick="closeNav()">Contact</a>
 
         <div class="media-icon_wrapper">
             
@@ -41,8 +41,8 @@
             href='https://www.linkedin.com/in/geo-hernandez/' target='blank'></a>
         </div>
     </div>
-    <span class='menu-button' style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-   
+    <span class='menu-button' style="font-size:30px;cursor:pointer" onclick="openNav()"> GH</span>
+<div id='overlay'></div>
 
     <!-- Landing Page -->
     <header class="v-header landing-container container" id='home'>
@@ -162,4 +162,5 @@
 <script src='menu.js'>
     
 </script>
+
 </html>
