@@ -15,6 +15,13 @@
     transition: 0.3s all ease-in-out;
   }
 
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .btn-wrapper {
       display: flex;
       justify-content: center;

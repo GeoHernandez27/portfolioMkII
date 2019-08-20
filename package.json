@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "navbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoHernandez27/portfolioMkII.git"
+  },
+  "keywords": [],
+  "author": "Geo Hernandez <leopardo2@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeoHernandez27/portfolioMkII/issues"
+  },
+  "homepage": "https://github.com/GeoHernandez27/portfolioMkII#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
