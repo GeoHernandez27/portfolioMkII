@@ -8,11 +8,13 @@
 
     <link rel="stylesheet" href="styles/stylesheet.css" />
     <link rel="stylesheet" href="styles/landingPage.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/menuButton.css" />
     <link rel="stylesheet" href="styles/buttonStyles.css" />
     <link rel="stylesheet" href="styles/sectionText.css" />
     <link rel="stylesheet" href="styles/portfolioSection.css" />
     <link rel="stylesheet" href="styles/contactSection.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 
     <link
@@ -23,7 +25,23 @@
   </head>
 
   <body>
-    <div class="menu-button">GH</div>
+    <div class="menu" id='side-nav'>
+        <a href='javascript:void(0)' class="closebtn menu-items" onclick="closeNav()">&times;</a>
+        
+        <a class='menu-items' href='#home'>Home</a>
+        <a class='menu-items' href='#portfolio'>Portfolio</a>
+        <a class='menu-items' href='#contact'>Contact</a>
+
+        <div class="media-icon_wrapper">
+            
+            <a class="fa fa-github-square media-icon"
+            href='https://github.com/GeoHernandez27' target="blank"></a>
+            
+            <a class="fa fa-linkedin-square media-icon"
+            href='https://www.linkedin.com/in/geo-hernandez/' target='blank'></a>
+        </div>
+    </div>
+    <span class='menu-button' style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
    
 
     <!-- Landing Page -->
@@ -141,7 +159,7 @@
       
     </div>
   </body>
-<script>
+<script src='menu.js'>
     
 </script>
 </html>
