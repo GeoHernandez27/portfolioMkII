@@ -16,10 +16,12 @@
   }
 
   a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
 
   .btn-wrapper {
