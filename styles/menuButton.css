@@ -112,7 +112,7 @@
   margin-left: auto;
 }
 /* End of Button Styles */
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .menu {
     padding-top: 15px;
   }

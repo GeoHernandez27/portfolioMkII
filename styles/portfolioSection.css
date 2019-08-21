@@ -58,7 +58,7 @@
 }
 
 .card:hover {
-  color: #a8a8a8;
+  color: white;
   cursor: pointer;
 }
 
@@ -84,4 +84,42 @@
   font-size: 1rem;
 
   transition: 0.3s all ease-in-out;
+}
+
+@media screen and (max-width: 450px) {
+  .portfolio-section {
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+
+    flex-direction: column;
+  }
+
+  .section-text_wrapper-top {
+    text-align: left;
+  }
+
+  /* CARD STYLES */
+
+  .horizontal-scroll {
+    width: 100%;
+
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .card {
+    display: inline-block;
+
+    color: white;
+
+    width: 80vw;
+  }
+
+  .project-image {
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+  }
 }
