@@ -20,10 +20,7 @@
 }
 
 .section-text {
-  
-  /* padding: 0rem 5rem 5rem 0rem; */
   color: #ffa62e;
-
 }
 
 .contact-wrapper {
@@ -33,7 +30,6 @@
   align-content: center;
 
   padding-left: 50px;
-
 }
 
 .contact-wrapper img {
