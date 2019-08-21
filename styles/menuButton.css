@@ -54,8 +54,6 @@
   justify-content: center;
   align-content: flex-end;
   height: 100%;
-
-  
 }
 
 .media-icon_wrapper a {
@@ -65,7 +63,6 @@
   color: #19292d;
   font-size: 3rem;
   padding: 15px;
-  
 }
 .media-icon {
   transition: 0.3s all ease-in-out;
@@ -76,7 +73,6 @@
 }
 .media-icon a:hover {
   cursor: pointer;
-  
 }
 /* Button Styles */
 .menu-button {
@@ -119,6 +115,4 @@
   .menu a {
     font-size: 18px;
   }
-
-  
 }
