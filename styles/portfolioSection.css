@@ -38,6 +38,7 @@
   white-space: nowrap;
   padding: 20px 0px;
   width: 70vw;
+
 }
 
 .horizontal-scroll::-webkit-scrollbar {
@@ -56,7 +57,14 @@
   font-size: 1.5rem;
 
   margin: 10px;
+
 }
+
+.card:hover {
+  color: #a8a8a8;
+  cursor: pointer;
+}
+
 
 .card-content {
   position: relative;
@@ -90,7 +98,3 @@
   transition: 0.3s all ease-in-out;
 }
 
-.card:hover {
-  color: #a8a8a8;
-  cursor: pointer;
-}

@@ -21,7 +21,8 @@
       href="https://fonts.googleapis.com/css?family=Raleway|Roboto:400,700&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
   </head>
 
   <body>
@@ -48,7 +49,7 @@
     <header class="v-header landing-container container" id='home'>
       <div class="video-wrap " >
         <video
-          src="assets/stars.mp4"
+          src="https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/stars.mp4"
           type="video/mp4"
           autoplay
           loop
@@ -79,52 +80,72 @@
 
       <div class="projects-wrapper" >
           
-        <div class="horizontal-scroll">
-                <div class="card">
+        <div class="horizontal-scroll scroll">
+                <a class="card"
+                href='https://adrenalineseekers.herokuapp.com/' target='blank'>
                         <div class="card-content">
-                                <img class="project-image" src='assets/test1.jpg'></img>
+                                <img class="project-image" src='https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/AdrenalineSeekers.jpg'></img>
                                 <div class="project-text">
-                                  <h2>Project Title</h2>
-                                  <p>project about text t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+                                  <h2>Adrenaline Seekers</h2>
+                                  <p>Front End React App built for locals to help them find activities throughout the state of Utah. </p>
                                 </div>
                         </div>
-                </div>
-                <div class="card">
+                    </a>
+                <a class="card" 
+                href='https://ghbottegafries.herokuapp.com/index.html' target='blank'>
                         <div class="card-content">
-                                <img class="project-image" src='assets/test2.jpg'></img>
+                                <img class="project-image" src='https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/BottegaFries.jpg'></img>
                                 <div class="project-text">
-                                  <h2>Project Title</h2>
-                                  <p>project about text</p>
+                                  <h2>Bottega Fries</h2>
+                                  <p>Restaurant website built using pure HTML and CSS with Google Maps integration. </p>
                                 </div>
                         </div>
-                </div>
-                <div class="card">
+                    </a>
+                <a class="card"
+                href='https://geo-hernandez.herokuapp.com/'>
                         <div class="card-content">
-                                <img class="project-image" src='assets/test3.jpg'></img>
+                                <img class="project-image" src='https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/portfolioManager.jpg'></img>
                                 <div class="project-text">
-                                  <h2>Project Title</h2>
-                                  <p>project about text</p>
+                                  <h2>Portfolio Manager</h2>
+                                  <p>Previous portfolio website built using React that was also connected to an API. This was created
+                                      to upload new content dynamically using a content management system. 
+                                  </p>
                                 </div>
                         </div>
-                </div>
-                <div class="card">
+                    </a>
+                <a class="card"
+                href='https://bottega-schedule-app.herokuapp.com/'>
                         <div class="card-content">
-                                <img class="project-image" src='assets/test4.jpg'></img>
+                                <img class="project-image" src='https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/courseScheduler.jpg'></img>
                                 <div class="project-text">
-                                  <h2>Project Title</h2>
-                                  <p>project about text</p>
+                                  <h2>Course Scheduler</h2>
+                                  <p>React application created to help build a class scheduler using a course library. Simply another variation of the classic "To Do" list.</p>
                                 </div>
                         </div>
-                </div>
-                <div class="card">
+                    </a>
+                <a class="card"
+                href='https://daily-smarty.herokuapp.com/'>
                         <div class="card-content">
-                                <img class="project-image" src='assets/test5.jpg'></img>
+                                <img class="project-image" src='https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/dailySmarty.jpg'></img>
                                 <div class="project-text">
-                                  <h2>Project Title</h2>
-                                  <p>project about text</p>
+                                  <h2>Daily Smarty Searchbox</h2>
+                                  <p>React application used to search the Daily Smarty API for articles and links</p>
                                 </div>
                         </div>
-                </div>
+                    </a>
+                    <!-- blank template for future uploads
+                    <a class="card"
+                    href='#'>
+                        <div class="card-content">
+                                <img class="project-image" src='#'></img>
+                                <div class="project-text">
+                                  <h2>Project Title</h2>
+                                  <p>Project Description</p>
+                                </div>
+                        </div>
+                    </a>
+
+                    -->
               
 
         </div>
@@ -147,12 +168,12 @@
       </div>
       <div class="contact-wrapper">
         <div class="image-container">
-            <img class="contact-image " src='assets/portraitTest.jpg'></img>
+            <img class="contact-image " src='https://portfolioasssets.s3-us-west-1.amazonaws.com/pictureAssets/selfPortrait.jpg' alt='self portrait'></img>
         </div>
     
         
         <div class="about-wrapper">
-          <p>About me bio Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Hey there! Thank you for stopping by. My name is Geo Hernandez and I am a design-oriented Front End Developer based out of Utah. I believe that an application not only needs to look great but also be simple and functional. I love meeting new people so let’s collaborate and embark on your next digital adventure!</p>
         </div>
 
         
@@ -160,8 +181,7 @@
       
     </div>
   </body>
-<script src='menu.js'>
-    
-</script>
+<script src='menu.js'></script>
+
 
 </html>
