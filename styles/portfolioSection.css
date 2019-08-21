@@ -37,7 +37,7 @@
   overflow-y: hidden;
   white-space: nowrap;
   padding: 20px 0px;
-  width: 70vw;
+  width: 85vw;
 }
 
 .horizontal-scroll::-webkit-scrollbar {
@@ -86,7 +86,7 @@
   transition: 0.3s all ease-in-out;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 800px) {
   .portfolio-section {
     display: flex;
     width: 100vw;
