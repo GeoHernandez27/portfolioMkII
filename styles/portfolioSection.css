@@ -96,7 +96,8 @@
   }
 
   .section-text_wrapper-top {
-    text-align: left;
+    text-align: center;
+    padding-top: 1rem;
   }
 
   /* CARD STYLES */
