@@ -90,9 +90,13 @@
   .portfolio-section {
     display: flex;
     width: 100vw;
-    height: 75vh;
+    height: auto;
 
     flex-direction: column;
+  }
+
+  .section-text {
+    padding: 0px 1rem 0px 1rem;
   }
 
   .section-text_wrapper-top {
